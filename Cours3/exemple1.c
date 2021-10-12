@@ -5,7 +5,7 @@
 
 int main()
 {
-    printf("TOTO TUTU");
+    printf("Exemple1\n");
     printf("Example2\n");
     printf("Example3\n");
     printf("Example4\n");
