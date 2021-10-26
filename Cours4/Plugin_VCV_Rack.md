@@ -12,7 +12,7 @@
 	
 **5)**  un nouveau dossier MyPlugin est créé, se placer dans ce dossier avec « **cd MyPlugin** » 
 
-**6)** télécharger le fichier MyModule.svg depuis cette URL https://github.com/sletz/master-rim-ran/tree/master/vcvrack et le mettre dans le dossier MyPlugin/res 
+**6)** télécharger le fichier MyModule.svg depuis cette URL https://github.com/sletz/master-rim-ran-/tree/master/vcvrack et le mettre dans le dossier MyPlugin/res 
 
 **7)** créer le fichier C++ à partir de cette interface SVG, avec dans le terminal : 
 
