@@ -1,6 +1,6 @@
 ## Procédure pour compiler un plugin générique stéréo
 
-
+#### Attention: ne pas mettre d'espaces dans le path contenant Rack-SDK !!
 
 **1)** télécharger le SDK : https://vcvrack.com/downloads/
 
@@ -28,6 +28,8 @@ to the init() function in plugin.cpp.)
 
 **9)** dans le terminal taper : **make**
 
-**10)** dans le terminal taper : **make install**
+**9)** Bien s'assurer que l'application RACK a été démarrée au moins une fois
+
+**10)** dans le terminal taper : **make install** 
 
 **11)** ouvrir l’application VCV Rack et vérifier que le nouveau plugin apparait
