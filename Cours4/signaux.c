@@ -80,7 +80,7 @@ void rampe2()
 {
     float table[SIZE];
     int i;
-    
+     
     // Crée la table de [0..1]
     for (i = 0; i < SIZE; i = i+1) {
         table[i] = (float)i/((float)SIZE - 1);
@@ -88,7 +88,7 @@ void rampe2()
     
     // Transforme la table précédente dans le range [-1..1]
     for (i = 0; i < SIZE; i = i+1) {
-        // A COMPLETER
+        table[i] = table[i] * 2.0f - 1.0f;
     }
     
     printf("======= rampe2 ======= \n");
